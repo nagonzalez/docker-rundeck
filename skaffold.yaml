@@ -1,0 +1,5 @@
+apiVersion: skaffold/v1beta10
+kind: Config
+build:
+  artifacts:
+    - image: harbor.apps.dev.noe.local/rundeck/rundeck
